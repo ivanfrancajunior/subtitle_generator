@@ -1,6 +1,4 @@
-### **1. Arquivo `requirements.txt`**
-Este arquivo lista todas as dependências necessárias para o projeto funcionar. Podemos gerar esse arquivo usando o comando `pip freeze`, mas aqui está uma versão simplificada com os pacotes essenciais :
-
+# Video Subtitle Generator
 ```plaintext
 # requirements.txt
 
@@ -13,17 +11,6 @@ assemblyai==2.3.0
 # Ferramenta para processamento de áudio (opcional, se necessário)
 ffmpeg-python==0.2.0
 ```
-
-**Como gerar automaticamente:**
-Você pode usar o comando abaixo para gerar o `requirements.txt` com base nos pacotes instalados no ambiente virtual :
-```bash
-pip freeze > requirements.txt
-```
-
----
-
-### **2. Arquivo `README.md`**
-O `README.md` é a porta de entrada para qualquer projeto. Ele deve explicar claramente o objetivo do projeto, como configurá-lo e executá-lo . Aqui está um exemplo detalhado:
 
 ```markdown
 # Video Subtitle Generator
